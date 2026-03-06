@@ -1,6 +1,7 @@
-# electionPKU*-浏览器插件*
+# electionPKU-浏览器插件
 
 *请不要用本退课机刷课，否则会受到严厉处分（退光你的课）*
+
 ***本项目作为浏览器扩展工作**，自动识别并填充验证码，代码摘自[PKUElectiveHelper](https://github.com/goudanZ1/PKUElectiveHelper)。*
 
 ## 使用方法：
