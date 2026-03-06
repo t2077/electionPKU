@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "退课助手",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://elective.pku.edu.cn/elective2008/*"],
+      "js": ["inject.js"],
+      "run_at": "document_end",
+      "all_frames": true,
+	  "world":"MAIN"
+    }
+  ]
+}
