@@ -65,6 +65,7 @@ window.alert = function(msg) {
 
 
 setInterval(() => {
-    const tx = Array.from(document.querySelectorAll('a')).filter(a => a.textContent.trim() === '\u9000\u9009');
+    const tx = [...document.links].filter(a=>(a=a.innerText)&&(f=a.charCodeAt())>1e4&&a.at(-1).charCodeAt()-f==9);;
 	if (tx.length) tx[Math.floor(Math.random() * tx.length)].click();
 }, 1000);
+
